@@ -1,0 +1,77 @@
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/submissions/1248407747
+
+https://leetcode.com/problems/count-and-say/submissions/1248413038
+
+Let's start the new Coding Journey
+
+Day 1 of #100DaysofCodingChallenge
+
+LeetCode || RAMPeX Technologies 
+
+Problem 1 : 122. Best Time to Buy and Sell Stock II
+
+Submission Link : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/submissions/1248407747
+
+class Solution {
+    public int maxProfit(int[] prices) {
+        int profit = 0;
+
+        for(int i = 1; i<prices.length ; i++ )
+        {
+            int diff = prices[i] - prices[i-1];
+            if(diff>0)
+                profit += diff ;
+        }
+
+        return profit;
+        
+
+    }
+}
+
+TC : O(n)
+
+SC : O(1)
+
+
+
+Problem 2 : 38. Count and Say
+
+Submission Link : https://leetcode.com/problems/count-and-say/submissions/1248413038
+
+class Solution {
+    public String countAndSay(int n) {
+        if(n==1) return "1";
+
+        String prev = countAndSay(n-1);
+
+        int count = 1;
+        String res = "";
+        int size = prev.length();
+        int i = 1;
+
+        
+        for(i = 1 ; i<size ; i++ ){
+            char pre_i = prev.charAt(i-1);
+            if(prev.charAt(i) != pre_i ){
+                res += count + "" + pre_i;
+                count = 1;
+            }else{
+                count++;
+            }
+        }
+
+        res += count + "" + prev.charAt(i-1);
+
+        return res;
+        
+    }
+}
+
+TC : O(n * m)
+
+SC : O(n * m)
+
+
+
+#arrays #dynamicprogramming #recursion #java
