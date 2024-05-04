@@ -1,0 +1,81 @@
+
+Day 2 of #100DaysofCodingChallenge
+
+LeetCode
+
+Problem 1 : 15. 3Sum
+
+Submission Link : https://leetcode.com/problems/3sum/submissions/1249068087
+
+class Solution {
+    public List<List<Integer>> threeSum(int[] nums) {
+        List<List<Integer>> res = new ArrayList<>();
+        Arrays.sort(nums);
+
+        for (int i = 0; i < nums.length; i++) {
+            if (i > 0 && nums[i] == nums[i-1]) {
+                continue;
+            }
+            
+            int j = i + 1;
+            int k = nums.length - 1;
+
+            while (j < k) {
+                int total = nums[i] + nums[j] + nums[k];
+
+                if (total > 0) {
+                    k--;
+                } else if (total < 0) {
+                    j++;
+                } else {
+                    res.add(Arrays.asList(nums[i], nums[j], nums[k]));
+                    j++;
+
+                    while (nums[j] == nums[j-1] && j < k) {
+                        j++;
+                    }
+                }
+            }
+        }
+        return res;        
+    }
+}
+TC : O(n^2)
+
+SC : O(n)
+
+
+
+Problem 2 : 560. Subarray Sum Equals K
+
+Submission Link : https://leetcode.com/problems/subarray-sum-equals-k/submissions/1249105011
+class Solution {
+    public int subarraySum(int[] nums, int k) {
+        
+        int count = 0;
+        int sum = 0;
+        int n = nums.length;
+        HashMap<Integer,Integer> map  = new HashMap<>();
+        map.put(0,1);
+
+        for(int i = 0;i<n;i++){
+            sum += nums[i];
+            int rem = sum - k;
+            count += map.get(rem)==null?0:map.get(rem);
+            if(map.containsKey(sum))
+                map.put(sum,map.get(sum)+1);
+            else
+                map.put(sum,1);
+        }
+
+        return count;
+    }
+}
+
+TC : O(n)
+
+SC : O(n)
+
+
+
+#arrays #java #hashmap #2pointers
