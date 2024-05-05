@@ -1,0 +1,106 @@
+
+Day 3 of #100DaysofCodingChallenge 🎯💯
+
+LeetCode
+
+Problem 1 : 34. Find First and Last Position of Element in Sorted Array
+
+Submission Link : https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/1249761745
+
+class Solution(object):
+    def searchRange(self, nums, target):
+        
+        n = len(nums)
+        i = 0
+        j = n - 1
+
+        pos1 = -1
+        pos2 =  -1
+        temp = -1
+        while i<=j:
+            mid = (i+j)//2
+
+            m = nums[mid]
+
+            if m==target:
+                temp = mid
+                break
+            elif m<target:
+                i = mid + 1
+            else:
+                j = mid - 1
+        
+        if temp == -1:
+            return [-1,-1]
+        pos1 = pos2 = temp
+
+        while pos1 >= 0 and nums[pos1] == target:
+            pos1 -= 1
+        while pos2 < n and nums[pos2] == target:
+            pos2 += 1
+
+        return [pos1+1,pos2-1]
+        
+        
+
+TC : O(log(n))
+
+SC : O(1)
+
+
+
+Problem 2 : 54. Spiral Matrix
+
+Submission Link : https://leetcode.com/problems/spiral-matrix/submissions/1249330825
+import java.util.*;
+
+class Solution {
+    public List<Integer> spiralOrder(int[][] matrix) {
+        List<Integer> res = new ArrayList<>();
+        if (matrix == null || matrix.length == 0) return res;
+
+        int top = 0, bottom = matrix.length - 1;
+        int left = 0, right = matrix[0].length - 1;
+
+        while (top <= bottom && left <= right) {
+            // Traverse top row
+            for (int i = left; i <= right; i++) {
+                res.add(matrix[top][i]);
+            }
+            top++;
+
+            // Traverse rightmost column
+            for (int i = top; i <= bottom; i++) {
+                res.add(matrix[i][right]);
+            }
+            right--;
+
+            // Traverse bottom row (if applicable)
+            if (top <= bottom) {
+                for (int i = right; i >= left; i--) {
+                    res.add(matrix[bottom][i]);
+                }
+                bottom--;
+            }
+
+            // Traverse leftmost column (if applicable)
+            if (left <= right) {
+                for (int i = bottom; i >= top; i--) {
+                    res.add(matrix[i][left]);
+                }
+                left++;
+            }
+        }
+
+        return res;
+    }
+}
+
+
+TC : O(n*m)
+
+SC : O(n*m)
+
+
+
+#arrays #matrix #simulation #binarysearch
