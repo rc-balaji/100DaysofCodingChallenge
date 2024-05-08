@@ -1,0 +1,67 @@
+
+Day 6 of #100DaysofCodingChallenge 🎯💯
+
+LeetCode
+
+Problem 1 : 3001. Minimum Moves to Capture The Queen
+Submission Link : https://leetcode.com/problems/minimum-moves-to-capture-the-queen/submissions/1252802826
+
+TC : O(1)
+
+SC : O(1)
+
+
+
+Problem 2 : 
+Submission Link : 
+
+TC : O()
+
+SC : O()
+
+
+
+#arrays #matrix #simulation #binarysearch
+
+
+
+class Solution {
+    public int minMovesToCaptureTheQueen(int a, int b, int c, int d, int e, int f) {
+        if(a==e){
+            if(a==c && (d-b)*(d-f)<0){
+                return 2;
+            }else{
+                return 1;
+            }
+        }
+        if(b==f){
+            if(b==d &&  (c-a)*(c-e)<0){
+                return 2;
+            }else{
+                return 1;
+            }
+        }
+
+        if(c-e == d-f ){
+            if(a-e==b-f  && (a-c)*(a-e)<0){
+                return 2;
+            }else{
+
+                return 1;
+            }
+        }
+
+        if(c-e == f-d){
+            if(a-e==f-b  && (a-c)*(a-e)<0){
+                return 2;
+            }else{
+
+                return 1;
+            }
+        }
+
+        return 2;
+
+
+    }
+}
