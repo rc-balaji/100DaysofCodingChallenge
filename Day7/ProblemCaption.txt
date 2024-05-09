@@ -1,0 +1,40 @@
+
+Day 7 of #100DaysofCodingChallenge 🎯💯
+
+LeetCode
+
+Problem 1 : 5. Longest Palindromic Substring
+Submission Link : https://leetcode.com/problems/longest-palindromic-substring/submissions/1211806486
+
+TC : O(n)
+
+SC : O(1)
+
+#strings #dsa #2pointers
+
+class Solution {
+    int Max = 0;
+    String res = "";
+    void Valid(String s ,int size , int l,int r){
+        int sublen;
+            while(l>=0 && r<size && s.charAt(l)==s.charAt(r)){
+                sublen = r - l  + 1;
+                if(sublen>Max){
+                    res = s.substring(l,r+1);
+                    Max = sublen;
+                }
+                    l--;
+                    r++;
+            }
+    }
+    public String longestPalindrome(String s) {
+        int size = s.length();
+        for(int i=0;i<size;i++){
+           Valid(s,size,i,i);
+           Valid(s,size,i,i+1);
+        }
+
+        return res;
+
+    }
+}
