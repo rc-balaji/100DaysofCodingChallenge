@@ -22,3 +22,54 @@ SC : O(1)
 
 
 #arrays #math #recursion #
+
+
+class Solution {
+    public int countPrimes(int n) {
+       if(n<3) return 0;
+
+        int[] arr = new int[n];
+        arr[0] = 1;
+        arr[1] = 1;
+
+        for(int i=2;i<(int)Math.pow(n,0.5) + 1;i++){
+            if(arr[i]==0){
+                for(int j = i*i ;j<n;j+=i)
+                    arr[j] = 1;
+            }
+        }
+
+        int count = 0;
+        for(int i:arr)
+            if(i==0) count++;
+        
+
+        return count;
+
+
+    }
+}
+
+
+class Solution {
+    public double myPow(double x, int n) {
+        if(n==0) return 1;
+        if(n==1) return x;
+
+        long N = n;
+
+        if(n<0){
+            N = -N;
+            x = 1/x; 
+        }
+
+        if(N%2==0)
+            return myPow(x*x,(int)(N/2));
+        
+        return x*myPow(x,(int)N-1);
+
+
+    }
+}
+
+
