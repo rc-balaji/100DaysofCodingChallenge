@@ -1,0 +1,24 @@
+
+Day 11 of #100DaysofCodingChallenge 🎯💯
+
+LeetCode
+
+Problem 1 : 34. Find First and Last Position of Element in Sorted Array (re-solved to be  better than previous solution)
+Submission Link : https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/1257042903
+
+TC : O(log(n))
+
+SC : O(1)
+
+
+
+Problem 2 : 41. First Missing Positive
+Submission Link : https://leetcode.com/problems/first-missing-positive/submissions/1257093437
+
+TC : O(n*log(n))
+
+SC : O(n)
+
+
+
+#arrays #binarysearch  #sort #dsa #java
