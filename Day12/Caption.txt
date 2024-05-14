@@ -1,0 +1,15 @@
+
+Day 12 of #100DaysofCodingChallenge 🎯💯
+
+LeetCode
+
+Problem 1 : 79. Word Search
+Submission Link : https://leetcode.com/problems/word-search/submissions/1257906150
+
+TC : O(n*m)
+
+SC : O(n)
+
+
+
+#arrays #matrix #backtracking #dfs #recursion #dsa #java
