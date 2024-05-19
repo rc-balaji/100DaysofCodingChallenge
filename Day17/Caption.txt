@@ -3,22 +3,12 @@ Day 17 of #100DaysofCodingChallenge 🎯💯
 
 LeetCode
 
-Problem 1 : 
-Submission Link : 
+Problem 1 : 22. Generate Parentheses
+Submission Link : https://leetcode.com/problems/generate-parentheses/submissions/1262415315
 
-TC : O()
+TC : O(4^n)
 
-SC : O()
-
-
-
-Problem 2 : 
-Submission Link : 
-
-TC : O()
-
-SC : O()
+SC : O(n)
 
 
-
-#arrays #matrix #simulation #binarysearch
+#string #recursion #backtracking #dsa #java
