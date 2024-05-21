@@ -12,13 +12,4 @@ SC : O()
 
 
 
-Problem 2 : 
-Submission Link : 
-
-TC : O()
-
-SC : O()
-
-
-
 #arrays #matrix #simulation #binarysearch
