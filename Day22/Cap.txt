@@ -1,0 +1,24 @@
+
+Day 22 of #100DaysofCodingChallenge 🎯💯
+
+LeetCode
+
+Problem 1 : 128. Longest Consecutive Sequence
+Submission Link : https://leetcode.com/problems/longest-consecutive-sequence/submissions/1266854501
+
+TC : O(n)
+
+SC : O(n)
+
+
+
+Problem 2 : 4. Median of Two Sorted Arrays
+Submission Link : https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/1266866185
+
+TC : O(n)
+
+SC : O(n)
+
+
+
+#arrays #3pointers #dsa #java 
