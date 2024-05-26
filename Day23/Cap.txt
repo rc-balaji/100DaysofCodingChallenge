@@ -1,0 +1,24 @@
+
+Day 23 of #100DaysofCodingChallenge 🎯💯
+
+LeetCode
+
+Problem 1 : 875. Koko Eating Bananas
+Submission Link : https://leetcode.com/problems/koko-eating-bananas/submissions/1267736972
+
+TC : O(n)
+
+SC : O(1)
+
+
+
+Problem 2 : 77. Combinations
+Submission Link : https://leetcode.com/problems/combinations/submissions/1267753681
+
+TC : O(n^k)
+
+SC : O(n)
+
+
+
+#arrays #binarysearch #recursion #backtrack #dsa #java
