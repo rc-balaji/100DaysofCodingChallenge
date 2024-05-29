@@ -1,5 +1,5 @@
 
-Day 26 of #100DaysofCodingChallenge 🎯💯
+Day 27 of #100DaysofCodingChallenge 🎯💯
 
 LeetCode
 
@@ -21,4 +21,4 @@ SC : O()
 
 
 
-#arrays #matrix #simulation #binarysearch
+#arrays #dsa #java

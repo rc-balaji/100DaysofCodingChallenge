@@ -1,0 +1,24 @@
+
+Day 27 of #100DaysofCodingChallenge 🎯💯
+
+LeetCode
+
+Problem 1 : 73. Set Matrix Zeroes
+Submission Link : https://leetcode.com/problems/set-matrix-zeroes/submissions/1271623375
+
+TC : O(n*m)
+
+SC : O(1)
+
+
+
+Problem 2 : 75. Sort Colors
+Submission Link : https://leetcode.com/problems/sort-colors/submissions/1271666258
+
+TC : O(n)
+
+SC : O(1)
+
+
+
+#arrays #matrix #simulation #3pointers #dsa #java
