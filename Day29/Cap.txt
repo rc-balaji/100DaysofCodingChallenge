@@ -1,17 +1,7 @@
 Day 29 of #100DaysofCodingChallenge 🎯💯
 
-LeetCode
 
 Problem 1 : 
-Submission Link : 
-
-TC : O()
-
-SC : O()
-
-
-
-Problem 2 : 
 Submission Link : 
 
 TC : O()
