@@ -1,0 +1,13 @@
+Day 30 of #100DaysofCodingChallenge 🎯💯
+
+LeetCode
+
+Problem 1 : 74. Search a 2D Matrix
+Submission Link : https://leetcode.com/problems/search-a-2d-matrix/submissions/1274354148
+
+TC : O(log(n*m))
+
+SC : O(1)
+
+
+#arrays #matrix #binarysearch #dsa #java
