@@ -1,0 +1,14 @@
+Day 33 of #100DaysofCodingChallenge 🎯💯
+
+LeetCode
+
+Problem 1 : 19. Remove Nth Node From End of List
+Submission Link : https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/1277693666
+
+TC : O(n)
+
+SC : O(1)
+
+
+
+#LinkedList #TwoPointers #dsa #java
