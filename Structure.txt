@@ -1,4 +1,4 @@
-Day 33 of #100DaysofCodingChallenge 🎯💯
+Day 34 of #100DaysofCodingChallenge 🎯💯
 
 LeetCode
 
@@ -8,6 +8,14 @@ Submission Link :
 TC : O()
 
 SC : O()
+
+Problem 2 : 
+Submission Link : 
+
+TC : O()
+
+SC : O()
+
 
 
 

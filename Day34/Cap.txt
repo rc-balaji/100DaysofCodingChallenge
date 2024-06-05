@@ -1,0 +1,22 @@
+Day 34 of #100DaysofCodingChallenge 🎯💯
+
+LeetCode
+
+Problem 1 : 2. Add Two Numbers
+Submission Link : https://leetcode.com/problems/add-two-numbers/submissions/1278691609
+
+TC : O(n)
+
+SC : O(n)
+
+Problem 2 : 237. Delete Node in a Linked List
+Submission Link : https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/1278695328
+
+TC : O(1)
+
+SC : O(1)
+
+
+
+
+#linkedlist #twopointers #dsa #java
