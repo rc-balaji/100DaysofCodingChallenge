@@ -1,0 +1,22 @@
+Day 35 of #100DaysofCodingChallenge 🎯💯
+
+LeetCode
+
+Problem 1 : 160. Intersection of Two Linked Lists
+Submission Link : https://leetcode.com/problems/intersection-of-two-linked-lists/submissions/1279768369
+
+TC : O(n)
+
+SC : O(1)
+
+Problem 2 : 141. Linked List Cycle
+Submission Link : https://leetcode.com/problems/linked-list-cycle/submissions/1279775203
+
+TC : O(n)
+
+SC : O(1)
+
+
+
+
+#linkedlist #2pointers #dsa #java
