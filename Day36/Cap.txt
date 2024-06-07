@@ -1,0 +1,14 @@
+Day 36 of #100DaysofCodingChallenge 🎯💯
+
+LeetCode
+
+Problem 1 : 686. Repeated String Match
+Submission Link : https://leetcode.com/problems/repeated-string-match/submissions/1280800231
+
+TC : O(n)
+
+SC : O(n)
+
+
+
+#strings #dsa #java
