@@ -1,0 +1,22 @@
+Day 40 of #100DaysofCodingChallenge 🎯💯
+
+LeetCode
+
+Problem 1 : 238. Product of Array Except Self
+Submission Link : https://leetcode.com/problems/product-of-array-except-self/submissions/1286110909
+
+TC : O(n)
+
+SC : O(n)
+
+Problem 2 : 260. Single Number III
+Submission Link : https://leetcode.com/problems/single-number-iii/submissions/1286122879
+
+TC : O(n)
+
+SC : O(n)
+
+
+
+
+#arrays #prefixsums #hashmap #dsa #java
