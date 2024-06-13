@@ -9,14 +9,5 @@ TC : O()
 
 SC : O()
 
-Problem 2 : 
-Submission Link : 
-
-TC : O()
-
-SC : O()
-
-
-
 
 #arrays #dsa #java
