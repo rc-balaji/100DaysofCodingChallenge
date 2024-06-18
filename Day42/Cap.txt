@@ -1,0 +1,12 @@
+Day 42 of #100DaysofCodingChallenge 🎯💯
+
+LeetCode
+
+Problem 1 : 424. Longest Repeating Character Replacement
+Submission Link : https://leetcode.com/problems/longest-repeating-character-replacement/submissions/1292661894
+
+TC : O(n)
+
+SC : O(1)
+
+#arrays #twoPointers #sliding_window #dsa #java
